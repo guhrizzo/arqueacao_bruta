@@ -6,7 +6,7 @@
         scale: 120%;
         border-radius: 16px;
         margin-bottom: 4em;
-        padding: 12px;
+        padding: 5px;
     }
 
     #container-bg{
@@ -16,6 +16,15 @@
 
     #volume, #enviar, #refresh{
         width: 50vw;
+    }
+
+    #title{
+        white-space: nowrap;
+        font-size: 10px;
+    }
+
+    #icon-calc{
+        display: none;
     }
 }
 
