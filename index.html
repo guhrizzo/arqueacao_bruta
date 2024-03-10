@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Cálculo de Arqueação Bruta</title>
+</head>
+<body class="">
+    <div id="img-background" class="w-screen h-screen fixed opacity-10"></div>
+    <div id="background" class="w-screen h-screen flex flex-col justify-center items-center fixed">
+        <div class="w-1/2 flex justify-center bg-gradient-to-r from-cyan-500 to-blue-500 m-4 p-6 rounded-full text-3xl font-bold drop-shadow-lg" id="arq-bruta">
+            <i class="bi bi-calculator-fill"></i>
+            <h1 class="">Cálculo de Arqueação Bruta</h1>
+        </div>
+        <div id="container-bg" class="fixed bg-[#cbd5e1] w-1/4 h-1/2 rounded-2xl drop-shadow-lg"></div>
+        <div id="container" class="w-1/2 h-1/2 flex flex-col items-center">
+            <section>
+                <div class="flex flex-col">
+                    <input type="number" id="volume" class="m-2 border-transparent w-80 p-4 rounded-2xl bg-[#e8e8e8] duration-300 focus:border-transparent outline-transparent" placeholder="Volume em m³">
+                </div>
+            </section>
+            <button id="enviar" class="text-[#7e97b8] uppercase bg-[#e0e8ef] pt-4 pr-6 pb-4 pl-7 rounded-2xl w-80 mt-4 border-[#ffffff55] border-2 font-medium tracking-[0.4px] duration-200 gap-[10px] m-3 hover:text-[#516d91] bg-[#E5EDF5] active: shadow-transparent"><i class="bi bi-send-fill"></i> Enviar</button>
+            <button id="refresh" class="bg-[#222] font-medium text-gray-100	uppercase text-base	pt-4 pr-[2rem] pb-4 pl-[2rem] w-80 rounded-lg gap-[10px] m-3 duration-200 hover:bg-[#333]"><i class="bi bi-arrow-repeat"></i>
+                Limpar</button>
+            <p class="font-medium">O resultado é:</p> <span id="res"></span>
+        </div>
+    <div class="w-screen bg-black h-[2rem] fixed bottom-[0px] blur-2xl opacity-100"></div>
+   <footer class="bg-[#171a21] w-screen fixed flex justify-center items-center h-[3rem] bottom-[0px] shadow-2xl font-light text-cyan-50 overflow-hidden	"><p>&copy;Gustavo Fernandes Rizzo</p> <a href="http://fatecjahu.edu.br/" target="_blank"><img src="img/fatec-identidade.svg" alt="logo-fatec" class="w-32 invert"></a></footer>
+    <script src="script.js"></script>
+</body>
+</html>

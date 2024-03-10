@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media (min-width: 320px) and (max-width:769px){
+    #arq-bruta{
+        font-size: 12px;
+        scale: 120%;
+        border-radius: 16px;
+        margin-bottom: 4em;
+        padding: 12px;
+    }
+
+    #container-bg{
+        width: 70vw;
+        scale: 110%;
+    }
+
+    #volume, #enviar, #refresh{
+        width: 50vw;
+    }
+}
+
+@media (min-width:770px) and (max-width: 1200px){
+    #arq-bruta{
+        font-size: 20px;
+        scale: 120%;
+        border-radius: 16px;
+        margin-bottom: 3em;
+        padding: 12px;
+    }
+
+    #container-bg{
+        width: 70vw;
+        scale: 110%;
+    }
+
+    #volume, #enviar, #refresh{
+        width: 50vw;
+    }
+}
+
+@media (min-width:1201px) and (max-width: 1919px){
+    #container-bg{
+        width:35vw;
+    }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden ;
+}
+
+body{
+    background-color: #012a4a;
+}
+
+#circle{
+    z-index: -1;
+}
+
+#img-background{
+    background-image: url(img/background_dark.jpg);
+    background-size: cover;
+    z-index: -1;
+}
+
+#enviar{
+    box-shadow: -4px -2px 16px 0px #ffffff1f, 4px 2px 16px 0px rgb(95 157 231 / 48%);
+}
+
+#enviar:hover{
+    box-shadow: -2px -1px 8px 0px #ffffff, 2px 1px 8px 0px rgb(95 157 231 / 48%)
+}
+
+#volume{
+    box-shadow: -2px -1px 8px 0px #ffffff1e, 2px 1px 8px 0px rgb(95 157 231 / 48%)
+}
+
+#container-bg{
+    z-index: -1;
+}
+
