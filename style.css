@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-@media (min-width: 320px) and (max-width:769px){
+@media (min-width: 300px) and (max-width:769px){
     #arq-bruta{
         font-size: 12px;
         scale: 120%;
